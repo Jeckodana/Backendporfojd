@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
 @RequestMapping
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://fporfoliojd.web.app/porfolio")
 public class controller {
     
     @Autowired
