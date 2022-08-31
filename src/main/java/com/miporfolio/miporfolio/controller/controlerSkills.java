@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-@CrossOrigin(origins="https://fporfoliojd.web.app/porfolio")
+//@CrossOrigin(origins="https://fporfoliojd.web.app/porfolio")
+@CrossOrigin(origins="http://localhost:4200")
 public class controlerSkills {
     @Autowired
     private ISkillsService skillServ;

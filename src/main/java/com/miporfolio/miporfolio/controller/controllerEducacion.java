@@ -20,7 +20,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-@CrossOrigin(origins="https://fporfoliojd.web.app/porfolio", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT, RequestMethod.DELETE})
+//@CrossOrigin(origins="https://fporfoliojd.web.app/porfolio", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT, RequestMethod.DELETE})
+@CrossOrigin(origins="http://localhost:4200", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT, RequestMethod.DELETE})
+
 public class controllerEducacion {
     @Autowired
     private IEducacionService eduServ;
