@@ -26,7 +26,7 @@ public class controller {
     @Autowired
     private IPersonaService persoServ;
     
-    @PreAuthorize("hasRole('ADMIN')")
+    //@PreAuthorize("hasRole('ADMIN')")
     @PostMapping("/persona/new")
     public void agregarPersona(@RequestBody Persona persona){
         persoServ.agregarPersona(persona);
