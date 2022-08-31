@@ -20,7 +20,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
 @RequestMapping
-@CrossOrigin(origins="http://localhost:4200")
+//@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://fporfoliojd.firebaseapp.com")
 public class controller {
     
     @Autowired
